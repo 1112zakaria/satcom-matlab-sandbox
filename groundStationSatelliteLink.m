@@ -15,10 +15,10 @@ sc = satelliteScenario;
 
 % Initialize two satellite objects
 semiMajorAxis = [10000000];
-eccentricity = [0.02];
-inclination = [20];
-rightAscensionOfAscendingNode = [15];
-argumentOfPeriapsis = [30];
+eccentricity = [0.05];
+inclination = [0];
+rightAscensionOfAscendingNode = [-50];
+argumentOfPeriapsis = [0];
 trueAnomaly = [0];
 sat = satellite(sc,semiMajorAxis,eccentricity,inclination, ...
     rightAscensionOfAscendingNode,argumentOfPeriapsis,trueAnomaly);
